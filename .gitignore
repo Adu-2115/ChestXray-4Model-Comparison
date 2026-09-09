@@ -1,0 +1,29 @@
+# --- Model checkpoints -------------------------------------------------------
+# Large binary weights, regenerable by re-running the training notebook.
+# Training histories (JSON) and plots (PNG) in outputs/ ARE tracked, since
+# those are the actual evidence of results.
+checkpoints/*.pth
+*.pth
+*.pt
+*.ckpt
+
+# --- Python ------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+
+# --- Jupyter -----------------------------------------------------------------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# --- OS / editor noise -------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
